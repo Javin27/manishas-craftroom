@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manisha’s Creation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="home">
+    <h1>Manisha’s Creation</h1>
+    <p class="tagline">Handcrafted Resin Art & Artisan Candles</p>
+
+    <div class="brand-select">
+
+      <a href="resin.html" class="brand-card resin">
+        <h2>Resin Aura</h2>
+        <p>Handcrafted Resin Creations</p>
+      </a>
+
+      <a href="flamora.html" class="brand-card flamora">
+        <h2>Filmora</h2>
+        <p>Artisan Handmade Candles</p>
+      </a>
+      <a href="handpaint.html" class="brand-card handpaint">
+        <h2>Hand Painted Creations</h2>
+        <p>Hand Printed Limiteds </p>
+      </a>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Manisha’s Creation | Crafted by Javin Rathod
+  </footer>
+
+  <script>
+    const gradients = [
+      "linear-gradient(135deg, #fff1f5, #e8fff3)",
+      "linear-gradient(135deg, #fff1f5, #ffe8ec)",
+      "linear-gradient(135deg, #f3fff8, #e8fff3)",
+      "linear-gradient(135deg, #fff7e6, #fff1cc)"
+    ];
+
+    let index = 0;
+    setInterval(() => {
+      document.body.style.background = gradients[index];
+      index = (index + 1) % gradients.length;
+    }, 1000);
+  </script>
+
+</body>
+</html>

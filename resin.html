@@ -6,6 +6,34 @@
   <title>Resin Aura | Resin Creations</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+    /* Javascript Work */
+<script>
+
+const buttons = document.querySelectorAll(".order-btn");
+
+buttons.forEach(button => {
+
+button.addEventListener("click", function(){
+
+const productName = this.parentElement.querySelector("h3").innerText;
+
+const message =
+`Hello, I saw your website Flamora.
+I want information about ${productName}.`;
+
+const phone = "918120987486";
+
+const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+window.open(url, "_blank");
+
+});
+
+});
+
+</script>
+  
 <style>
   body, html {
     background: linear-gradient(135deg, #6a11cb, #2575fc, #3a7bd5, #00d2ff, #667eea, #764ba2);
@@ -71,6 +99,7 @@
 
 </body>
 </html>
+
 
 
 

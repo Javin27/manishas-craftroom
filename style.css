@@ -248,5 +248,15 @@ img {
   color: #6d4c41;
 }
 
-
+/* Order Button */
+.order-btn{
+  display:inline-block;
+  margin-top:10px;
+  padding:8px 15px;
+  background:#f8b500;
+  color:white;
+  text-decoration:none;
+  border-radius:20px;
+  font-size:14px;
+}
 
